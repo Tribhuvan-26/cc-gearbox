@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gearbox"
+version = "0.1.0"
+description = "Six-speed model shifter for Claude Code"
+requires-python = ">=3.10"
+dependencies = ["textual>=1.0", "pillow", "numpy"]
+
+[project.scripts]
+gearbox = "gearbox.app:main"
+
+[project.gui-scripts]
+gearshift-cc = "gearbox.gui:main"
+
+[tool.setuptools]
+packages = ["gearbox"]
