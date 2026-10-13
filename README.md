@@ -1,5 +1,5 @@
 # gearbox
-![gearbox](docs/gearbox.png)
+<p align="center"><img src="docs/gearbox.png" alt="gearbox" width="320"></p>
 
 Six-speed H-pattern shifter that switches the model of a running Claude Code session by typing `/model <id>` into its tmux pane.
 
