@@ -1,5 +1,5 @@
 # gearbox
-n![gearshift-cc](docs/hero.png)
+![gearshift-cc](docs/hero.png)
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/gearbox.png"><img src="docs/gearbox-light.png" alt="gearbox" width="320"></picture></p>
 
 Six-speed H-pattern shifter that switches the model of a running Claude Code session by typing `/model <id>` into its tmux pane.
